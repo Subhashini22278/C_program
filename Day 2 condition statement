@@ -1,0 +1,107 @@
+// equal and not equal 
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a==b)
+    printf("equal");
+    else
+    printf("not equal");
+}
+//write a c program to check the give number is postive or negative
+//I/p                   o/p 
+//12                    Number is 12:positive
+//-9                    Number is-9:negative
+//0                     Number is 0  
+#include<stdio.h>
+int main() 
+{
+    int a;
+    scanf("%d",&a);
+    if (a>0)
+    printf("Number is %d:positive", a);
+    else if (a< 0) 
+    printf("Number is %d:negative", a);
+    else 
+    printf("Number is %d", a);
+    }
+//greatest two numbers
+#include<stdio.h>
+int main()
+{ 
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if (a>b)
+    printf("greatest is =%d",a);
+    else
+    printf("greater is =%d",b);
+}
+//greatest of 3
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if ((a>b) && (a>c))
+    printf("greates num:%d",a);
+    else if (b>c)
+    printf("greatest num:%d",b);
+    else
+    printf("greatest num: %d",c);
+    
+
+}
+//divisible by 3
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if (a%2==0)
+    printf("even");
+    else
+    printf("odd");
+}
+//leap year
+#include<stdio.h>
+int main()
+{
+    int y;
+    scanf("%d",&y);
+    if(y%400==0||(y%4==0&&y%100!=0))
+    printf("leap year");
+    else
+    printf("not a leap year");
+}
+//natural numbers
+#include<stdio.h>
+int main()
+{
+    int i,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    printf("%d",i);
+}
+//factors
+#include<stdio.h>
+int main()
+{
+    int n,i;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    { 
+        if(n%i==0)
+        printf("%d ",i);
+    }
+    
+}// multiplication table 
+#include<stdio.h>
+int main()
+{
+    int t,n,i;
+    scanf("%d%d",&t,&n);
+    for(i=1;i<=n;i++)
+      printf("%d * %d =%d\n",i,t,i*t);
+}
