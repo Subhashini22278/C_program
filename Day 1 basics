@@ -1,0 +1,68 @@
+include <stdio.h>
+int main() 
+{ int a ;
+scanf ("%d",&a);
+printf("%d",a);
+}
+// // #include <stdio.h>
+// // int main()
+// // { float a;
+// // scanf ("%f",&a);
+// // printf("%.2f",a);
+// // }
+
+// #include <stdio.h>
+// int main()
+// { char a ;
+// scanf("%c",&a);
+// printf("%c",a);
+// }
+
+// #include <stdio.h>
+// int main()
+// { printf("ANANDHA SRI");
+// }
+
+// #include <stdio.h>
+// int main()
+// { printf("slow and \"steady\" wins the race"); 
+// }
+
+// #include <stdio.h>
+// int main()
+// { printf("\\n");
+// }
+
+// #include <stdio.h>
+// int main()
+// { printf("%%%%");
+// }
+// two numbers are equal or not
+// i/p               o/p
+// 2 2               Equal
+// 2 4               Not Equal
+#include <stdio.h>
+int main()
+{	int a,b;
+	scanf("%d%d",&a,&b);
+	if (a==b)
+		printf("Equal");
+	else
+		printf("Not Equal");
+}
+// write a c program to check the given number is positive or negative or zero
+// i/p                 o/p
+// 12                  Number is 12 :Positive
+// -9                  Number is -9 :Negative
+// 0                   Number is 0
+#include <stdio.h>
+int main()
+{	int a;
+	scanf("%d",&a);
+	if (a>0)
+		printf("Number is %d :Positive",a);
+	else if (a<0)
+		printf("Number is %d :Negative",a);
+	else
+		printf("Number is 0");
+}
